@@ -1,30 +1,44 @@
 # Cutting Edge CSS
 This is the repository for the LinkedIn Learning course `Cutting Edge CSS`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This course has no exercise files. Below is a list of links to relevant documentation for all the techniques covered in the course, sorted by chapter.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## Documentation Links
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+### Chapter 1: Core Principles
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+- [Logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties)
+- [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [Collapsing margins](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+### Chapter 2: Selectors
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+- Tree-structural Pseudo-Classes
+-- [:first-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type)
+-- [:last-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child)
+-- [:only-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child)
+-- [:first-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type)
+-- [:last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)
+-- [:only-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type)
+-- [:nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+-- [:nth-last-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child)
+-- [:nth-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
+-- [:nth-last-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type)
+- [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries)
+- [:is()](https://developer.mozilla.org/en-US/docs/Web/CSS/:is)
+- [:where()](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)
+
+### Chapter 3: Layout
+
+- [clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp())
+- Viewport Units
+-- [Viewport concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts)
+-- [Length units](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
+-- [Viewport-relative units](https://www.w3.org/TR/css-values-4/#viewport-relative-units)
+- [Flex (Flexbox)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [Grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [grid-auto-flow](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow)
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
